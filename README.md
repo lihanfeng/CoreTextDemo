@@ -1,6 +1,6 @@
 # CoreTextDemo
 
-几种关于coreText排版的效果
+几个关于coreText排版的效果
 
 #圆形排版     
   

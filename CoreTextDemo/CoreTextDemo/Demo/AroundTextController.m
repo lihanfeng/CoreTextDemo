@@ -1,0 +1,30 @@
+//
+//  AroundTextController.m
+//  CoreTextDemo
+//
+//  Created by hanfeng.li on 2017/10/19.
+//  Copyright © 2017年 hanfeng.li. All rights reserved.
+//
+
+#import "AroundTextController.h"
+#import "AroundTextLabel.h"
+
+@interface AroundTextController ()
+@property (weak, nonatomic) IBOutlet AroundTextLabel *contentLabel;
+@end
+
+@implementation AroundTextController
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    self.contentLabel.text = @"CoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCorCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTextCoreTexteText";
+    self.contentLabel.backgroundColor = [UIColor grayColor];
+}
+
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
+}
+
+
+@end
